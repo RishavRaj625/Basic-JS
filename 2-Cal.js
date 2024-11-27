@@ -74,6 +74,9 @@ const palindrome = (palin) =>{
 
     }
 }
-
+// Given Value
 let drome = palindrome("radar")
 console.log(drome)
+// taking argument from the users
+let drome1 = prompt("Enter the name : ")
+console.log(palindrome(drome1))
